@@ -22,62 +22,94 @@
     </a>
   </nav>
 
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Der Münster Info Hub</h1>
+  <div class="p-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-2">
+      Münster Info Hub
+    </h1>
+    <h3>
+      Alle Veranstaltung in Münster im Überblick.
+    </h3>
   </div>
 
   <div class="jumbotron jumbotron-fluid mb-12">
     <div class="container">
-      <p class="lead">Alles über Münster im Überblick. Hervorgegangen aus der MÜNSTERHACK 2019 ist Münster.jetzt eine
-        Plattform um Daten unterschiedlichen Ursprungs an einem einzigen Ort zusammenzuführen. Offen für alle Entwickler
-        und alle erdenkbaren Daten - Hauptsache Münster! Unser Anspruch ist es, unsere Lösung langfristig nicht nur
-        Mobile- und Desktop-Usern, sondern auch auf Displays über Münster verteilt zur Verfügung zu stellen. Die
-        Anwendung ist auf maximale Nutzerfreundlichkeit getrimmt. Einfach ab auf <a
-          href="https://app.muenster.jetzt">app.münster.jetzt</a> und los gehts! Und Wer weiß, viellicht bekommt Ihr
-        schon bald unsere App im Hauptbahnhof zu sehen...</p>
+      <p class="lead text-center">
+        Der <em>Münster Info Hub</em> ist die zentrale Plattform für alle
+        Veranstaltungen in Münster. Neben der
+        <a href="https://app.muenster.jetzt" class="hero-link">Münster.jetzt App</a>
+        bietet eine
+        <a href="http://docs.muenster.jetzt" class="hero-link">
+          offene Programmierschnittstelle
+        </a>
+        Zugriff auf maschinenlesbare Veranstaltungsinformationen als Open Data.
+      </p>
     </div>
   </div>
 
   <div class="container">
-    <div class="card-deck mb-3 text-center">
-      <div class="card mb-4 shadow" style="width: 18rem;">
-        <h1 class="card-title pricing-card-title"><a href="https://app.muenster.jetzt">Mobile App</a></h1>
-        <img class="card-img-top" src="img/card_2.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Jetzt schon online - die Mobilansicht für unseren Info Hub.</p>
+    <div class="row mb-3 text-center card-deck">
+      <div class="col col-3">
+        <div class="card shadow">
+          <a href="https://app.muenster.jetzt">
+            <h1 class="card-title pricing-card-title">App</h1>
+            <img class="card-img-top" src="img/card_2.jpg" alt="Card image cap">
+            <div class="card-body">
+              Alle Veranstaltungen in Münster im Überblick. Desktop und Mobil.
+            </div>
+          </a>
         </div>
       </div>
-      <div class="card mb-4 shadow" style="width: 18rem;">
-        <h1 class="card-title pricing-card-title"><a href="https://api.muenster.jetzt">API</a></h1>
-        <img class="card-img-top" src="img/card_1.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Mitbasteln erwünscht - mit unserer ElastiscSearch-basierten Schnittstelle.</p>
+      <div class="col col-3">
+        <div class="card shadow">
+          <a href="http://docs.muenster.jetzt">
+            <h1 class="card-title pricing-card-title">API</h1>
+            <img class="card-img-top" src="img/card_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              Dokumentation der offenen Programmier- schnittstelle.
+            </div>
+        </div>
+        </a>
+      </div>
+      <div class="col col-3">
+        <div class="card shadow">
+          <a href="http://stats.muenster.jetzt">
+            <h1 class="card-title pricing-card-title">Status</h1>
+            <img class="card-img-top" src="img/card_stats.png" alt="Card image cap">
+            <div class="card-body">
+              Übersicht der aktuell verfügbaren Veranstaltungen.
+            </div>
+          </a>
         </div>
       </div>
-      <div class="card mb-4 shadow" style="width: 18rem;">
-        <h1 class="card-title pricing-card-title"><a href="https://display.muenster.jetzt">Displays</a></h1>
-        <img class="card-img-top" src="img/card_3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Coming soon(?) - Münster.jetzt in der Innenstadt</p>
+      <div class="col col-3">
+        <div class="card shadow"><a href="https://display.muenster.jetzt">
+            <h1 class="card-title pricing-card-title">Displays</h1>
+            <img class="card-img-top" src="img/card_3.jpg" alt="Card image cap">
+            <div class="card-body">
+              Coming soon(?) - Münster.jetzt in der Innenstadt
+            </div>
+          </a>
         </div>
       </div>
     </div>
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
-        <div class="col-12 col-md">
-          <img class="mb-2" src="img/logo_muensterhack.png" alt="" height="50">
-          <small class="d-block mb-3 text-muted">Brought to you by <a href="https://www.muensterhack.de/">MÜNSTERHACK
+        <div class="col-12 col-md d-flex flex-column align-content-center">
+          <img class="mb-2 footer-img" src="img/logo_muensterhack.png" alt="">
+          <small class="d-block mb-3 text-muted text-center">Entwickelt auf dem <a
+              href="https://www.muensterhack.de/">MÜNSTERHACK
               2019</a></small>
         </div>
-        <div class="col-12 col-md">
-          <img class="mb-2" src="img/logo_github.png" alt="" height="50">
-          <small class="d-block mb-3 text-muted">Besucht uns auf <a
+        <div class="col-12 col-md d-flex flex-column align-content-center">
+          <img class="mb-2 footer-img" src="img/logo_github.png" alt="">
+          <small class="d-block mb-3 text-muted text-center">Quellcode auf <a
               href="https://github.com/codeformuenster/muenster-info-hub">Github</a></small>
         </div>
-        <div class="col-12 col-md">
-          <img class="mb-2" src="img/logo_code4ms.png" alt="" height="50">
-          <small class="d-block mb-3 text-muted"><a href="https://codeformuenster.org/impressum/">Impressum &amp;
+        <div class="col-12 col-md d-flex flex-column align-content-center">
+          <img class="mb-2 footer-img" src="img/logo_code4ms.png" alt="">
+          <small class="d-block mb-3 text-muted text-center"><a href="https://codeformuenster.org/impressum/">Impressum
+              &amp;
               Datenschutz</a></small>
         </div>
       </div>

@@ -13,20 +13,28 @@ html {
 
 .card-deck .card {
   min-width: 220px;
+  margin-bottom: 1rem;
 }
 
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
 
 .jumbotron {
-	background-color: #01608d;
-	color: white;
+  background-color: #01608d;
+  color: white;
 }
 
-.card a, footer a{
-	color: #01608d;
+.card a,
+footer a {
+  color: #01608d;
 }
 
 .card-img-top {
@@ -45,4 +53,15 @@ html {
 .footer-img {
   max-height: 50px;
   object-fit: contain;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.navbar-brand img {
+  max-width: 85vw;
 }
